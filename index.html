@@ -11,54 +11,50 @@
 </head>
 
 <body>
-  <header class="header-top"> 
-    
+  <header class="header-top">   
   <div class="header-top__logo">
       <img src="img/Logo Américo-depositphotos-bgremover (1).png" alt="Logo da Escola Américo Alves">
       <h1>Américo Alves</h1> 
     </div>
-  
-    <div class="header-top__gestion">
-      <div class="icongestao">
-        <img src="img/userwhite.png" alt="Logo da Escola Américo Alves">
-        </div>
-      <a href="gestao.html">Gestão</a> mudar/tirar o link gestao/criar tela de cadastro/TROCAR A NAVBAR E O FOOTER.   
-    </div>
+    <nav class="header-bottom">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="avisos.html">Avisos</a></li>
+        <li><a href="publicacoes.html">Publicações</a></li>
+        <li><a href="eventos.html">Eventos</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-menu-icon">
+      <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+  </div>
+</nav>
+<div class="mobile-menu">
+  <ul>
+      <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+  </ul>
   </header>
 
-  <nav class="header-bottom">
-    <ul>
-      <li><a href="index.html">Início</a></li>
-      <li><a href="avisos.html">Avisos</a></li>
-      <li><a href="publicacoes.html">Publicações</a></li>
-      <li><a href="eventos.html">Eventos</a></li>
-      <li><a href="sobre.html">Sobre</a></li>
-    </ul>
-  </nav>
-
   <!-- carrossel bootstrap-->
-  <div id="carouselExampleIndicators" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
+  <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/Banners Site américo (1).png" class="d-block w-100" id="imgcarro" alt="...">
+        <img src="img/Banners Site américo (1).png" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="img/Banners Site américo.png" class="d-block w-100 h-100" alt="...">
+        <img src="img/Banners Site américo.png" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
         <img src="img/Banners Site américo (1).png" class="d-block w-100" alt="...">
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
@@ -140,7 +136,7 @@
 
 
 
-
+<script src="assets/js/script.js"> </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>

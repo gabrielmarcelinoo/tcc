@@ -278,7 +278,7 @@
 /*========================================*/
 /*========================================*/
 @media screen and (max-width: 480px) {
-  
+
 
   .depoimentos__cards {
     margin-top: 20px;
@@ -348,19 +348,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    display: none;
   }
  
-  .header-top__gestion a {
-    font-size: 1.0rem;
-  }
-  .header-top__gestion {
-    margin-right: 0px;
-    gap: 0px;
-    flex-direction: column;
-  }
-  .icongestao img {
-    width: 20px;
-  }
+ 
   .mural__imagens {
     margin: 20px 40px 0px 40px;
     grid-template-columns: repeat(2, 1fr);
