@@ -199,12 +199,13 @@ main{
 
 
 
-  footer{
-    background-color: #c91b1b;
-    padding: 50px 0;
-    margin-top: 70px;
+footer{
+  background-color: #c91b1b;
+  padding: 50px 0;
+  margin-top: 70px;
 
 }
+
 .container-footer{
     max-width: 1400px;
     padding: 0 4%;
@@ -221,19 +222,22 @@ main{
 .footer-col{
     background-color: rgb(255, 204, 0);
 }
-.footer-col .icons{
-width: 20px;
-}
 
-#footer-col{
-  background-color: rgb(212, 212, 212);
- 
+.list-contato{
+  background-color: rgb(255, 140, 0);
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.list-contato .icons{
+width: 30px;
+height: 30px;
 }
 
 .footer-col img{
   width:80px;
- 
 }
+
 .footer-col h4{
     font-size: 1.6rem;
     color: white;
@@ -262,16 +266,13 @@ width: 20px;
     padding: 0;
     width: 100%;
     background-color: #ff4400;
+}
 
-}
-.footer-col .contatos{
-  background-color: burlywood;
-  width: 100px;
-}
+
 .footer-col ul li{
     margin: 10px 0;
     width:300px;
-    background-color: blue;
+    
     display: flex;
     flex-direction: row;
     gap: 30px;
