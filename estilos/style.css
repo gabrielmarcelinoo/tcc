@@ -203,60 +203,89 @@ main{
     background-color: #c91b1b;
     padding: 50px 0;
     margin-top: 70px;
-    
+
 }
 .container-footer{
     max-width: 1400px;
     padding: 0 4%;
     margin: auto;
+    background-color: darkorchid;
 }
 .row-footer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-around;   
+    background-color: rgb(110, 182, 158);
 }
 
 .footer-col{
-    width: 25%;
-    padding: 0 15px;
+    background-color: rgb(255, 204, 0);
 }
+.footer-col .icons{
+width: 20px;
+}
+
+#footer-col{
+  background-color: rgb(212, 212, 212);
+ 
+}
+
 .footer-col img{
-  width: 50px;
+  width:80px;
  
 }
 .footer-col h4{
-    font-size: 22px;
+    font-size: 1.6rem;
     color: white;
-   
+    background-color: chocolate;
     font-weight: 500;
     position: relative;
     text-transform: uppercase;
+    width: 250px;
+    height: 30px;
     margin: 0;
+    display: flex;
+    flex-direction: row;
 }
-.container-logo{
-  width: 300px;
 
+
+.container-logo{
+  width: 350px;
+  background-color: chartreuse;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
+
 .footer-col ul{
     list-style: none;
     padding: 0;
-    margin-bottom: 50px;
-    padding-left: 50px;
-    width: 300px;
-    
+    width: 100%;
+    background-color: #ff4400;
+
+}
+.footer-col .contatos{
+  background-color: burlywood;
+  width: 100px;
 }
 .footer-col ul li{
     margin: 10px 0;
+    width:300px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
 }
 
 .footer-col ul li a{
-    font-size: 16px;
+    font-size: 1.2rem;
     text-transform: capitalize;
     color: white;
     text-decoration: none;
     font-weight: 300;
     display: block;
     transition: all 0.3s ease;
+    
 }
 .footer-col ul li a:hover{
     color: #cecdcd;
@@ -274,8 +303,9 @@ main{
     background-color: #ffffff;
     border-radius: 10px;
 }
+
 .footer-col .form-sub input::placeholder{
-    color: white;
+    color: rgb(255, 0, 0);
 }
 .footer-col .form-sub button{
     width: 100%;
@@ -342,8 +372,7 @@ main{
 
   @media screen and (min-width:769px) and (max-width: 1024px) {
 
-/*========================================*/ 
-/*==========TELA DE INICIO================*/ 
+
 
 .logo img {
   width: 80px;
@@ -474,6 +503,8 @@ main{
      .mural__titulo{
       font-size: 1.8rem;
      }
+
+    
     }
 
 /*========================================*/
@@ -486,7 +517,16 @@ main{
 /*========================================*/
 /*========================================*/
 @media screen and (max-width: 480px) {
+
  
+  .container-logo {
+   
+  }
+
+  .footer-col ul {
+    
+    
+}
   .footer-col{
     width: 100%;
 }
