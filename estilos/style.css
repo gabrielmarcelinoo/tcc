@@ -485,7 +485,7 @@ footer{
 
   .cards {
       width: 600px; 
-      height: 400px;
+      height: 500px;
       display: flex;
       font-size: 1rem;
      }   
@@ -500,6 +500,12 @@ footer{
      }
 .faleconosco{
   margin-top: 0;
+  gap: 10px;
+}
+.faleconosco h4{
+  margin: 0;
+  padding-bottom: 0;
+  padding-top: 7px;
 }
     .mural__imagens {
       margin: 20px 40px 0px 40px;
