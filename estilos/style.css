@@ -133,8 +133,8 @@ main{
   .cards {
     background-color: rgb(255, 255, 255);
     padding: 33px;
-    width: 380px;
-    height: 600px;
+    width: 400px;
+    height: 100%;
     box-shadow: 10px 10px  rgb(255, 0, 0);
     display: flex;
     border-radius: 10% ;
@@ -348,8 +348,7 @@ footer{
     }
 
     .cards {
-      width: 700px; 
-      height: 350px;
+      width: 600px; 
       display: flex;
      }
 
@@ -396,8 +395,7 @@ footer{
   align-content: center;
 }
     .cards {
-      width: 660px;
-      height: 370px;
+      width: 580px;
       display: flex;
   } 
     .depoimentos__cards{
@@ -484,8 +482,7 @@ footer{
 }
 
   .cards {
-      width: 600px; 
-      height: 500px;
+      width: 580px; 
       display: flex;
       font-size: 1rem;
      }   
@@ -610,8 +607,7 @@ footer{
   }
 
   .cards {
-    width: 500px; 
-    height: 480px;
+    width: 400px; 
     display: flex;
     font-size: 1rem;
    }
