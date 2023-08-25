@@ -9,6 +9,12 @@
 	font-family: sans-serif;
 }
 
+:root {
+  --bgcolor: #EBEBEB;
+  --vermelhoescuro:#950303 ;
+  --vermelhoclaro:#c91212;;
+}
+
 body {
 	background-color: #eee;
 }
@@ -21,28 +27,22 @@ a{
   text-decoration: none;
 }
 
-:root {
-  --bgcolor: #EBEBEB;
-  --vermelhoescuro:#950303 ;
-  --vermelhoclaro:#c91212;;
+header {
+  background-image: linear-gradient(to right, #df1717,#af1d1d, #a32525);
+  box-shadow: 0px 3px 10px #464646;
 }
 
-header {
-    background-color: #ae2424;
-    box-shadow: 0px 3px 10px #464646;
-}
 .icon{
   width: 20px;
 }
 .nav-bar {
-      padding: 20px 0px 20px 0px;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      flex-direction: row;
-      align-content: center;
-    }
-
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: center;
+  }
 
 .logo {
     display: flex;
@@ -85,25 +85,14 @@ header {
     font-size: 1rem;
     color: #fff;
     font-weight: 400;
+    transition: 0.6s;
 }
-
-.login-button button {
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    background-color: #0187a7;
-}
-
-.login-button button a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 500;
-    font-size: 1.1rem;
+.nav-link:hover {
+  border-bottom:1.5px solid #FFFFFF;
 }
 
 .mobile-menu-icon {
     display: none;
-  
 }
 
 .mobile-menu {
@@ -200,7 +189,7 @@ main{
 
 
 footer{
-  background-color: #c91b1b;
+  background-image: linear-gradient(to right, #df1717,#af1d1d, #a32525);
   padding: 50px 0;
   margin-top: 70px;
 
@@ -210,28 +199,25 @@ footer{
     max-width: 1400px;
     padding: 0 4%;
     margin: auto;
-    background-color: darkorchid;
+   
 }
 .row-footer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;   
-    background-color: rgb(110, 182, 158);
-}
+    justify-content: space-between; 
 
-.footer-col{
-    background-color: rgb(255, 204, 0);
 }
 
 .list-contato{
-  background-color: rgb(255, 140, 0);
   display: flex;
   flex-direction: column;
   padding-left: 20px;
+  color: white;
+  font-size: 1.3rem;
 }
 .list-contato .icons{
-width: 30px;
-height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .footer-col img{
@@ -241,7 +227,6 @@ height: 30px;
 .footer-col h4{
     font-size: 1.6rem;
     color: white;
-    background-color: chocolate;
     font-weight: 500;
     position: relative;
     text-transform: uppercase;
@@ -255,7 +240,7 @@ height: 30px;
 
 .container-logo{
   width: 350px;
-  background-color: chartreuse;
+
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -264,15 +249,12 @@ height: 30px;
 .footer-col ul{
     list-style: none;
     padding: 0;
-    width: 100%;
-    background-color: #ff4400;
+    width: 100%;  
 }
-
 
 .footer-col ul li{
     margin: 10px 0;
     width:300px;
-    
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -293,8 +275,25 @@ height: 30px;
     padding-left: 10px;
 }
 
+.faleconosco{ 
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 300px;
+}
+.faleconosco h4{ 
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding-bottom: 20px ;
+}
+.faleconosco form{ 
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
-.footer-col .form-sub input{
+.faleconosco .form-faleconosco input{
     width: 100%;
     padding: 10px;
     font-size: 15px;
@@ -305,10 +304,10 @@ height: 30px;
     border-radius: 10px;
 }
 
-.footer-col .form-sub input::placeholder{
+.faleconosco .form-faleconosco input::placeholder{
     color: rgb(255, 0, 0);
 }
-.footer-col .form-sub button{
+.faleconosco .form-faleconosco button{
     width: 100%;
     margin-top: 10px;
     padding: 10px; 
@@ -322,7 +321,11 @@ height: 30px;
     background-color: white;  
     border-radius: 10px;      
 }
-
+.linha{
+  width: 75%;
+  border: 1px solid #ffffff;
+  margin-top: 20px;
+}
 
   @media screen and (min-width: 1025px) and (max-width: 1200px) {
 
@@ -463,7 +466,7 @@ height: 30px;
     padding: 0;
     padding-bottom: 30px;
     color: #fff;
-    background-color: #950303;
+    background-image: linear-gradient(to right, #df1717,#af1d1d, #a32525);
 }
 .mobile-menu .nav-item {
     display: block;
@@ -495,7 +498,9 @@ height: 30px;
      .depoimentos__titulo {
       font-size: 2rem;
      }
-
+.faleconosco{
+  margin-top: 0;
+}
     .mural__imagens {
       margin: 20px 40px 0px 40px;
       grid-template-columns: repeat(2, 1fr);
@@ -504,8 +509,19 @@ height: 30px;
      .mural__titulo{
       font-size: 1.8rem;
      }
+     .footer-col ul li {
+      padding: 0;
+  }
+  .container-logo img {
+  width: 50px;
+  position: relative;
+  right: 10px;
+}
 
-    
+.footer-col ul li {
+  
+  gap: 20px;
+}
     }
 
 /*========================================*/
@@ -519,38 +535,25 @@ height: 30px;
 /*========================================*/
 @media screen and (max-width: 480px) {
 
- 
-  .container-logo {
-   
-  }
-
-  .footer-col ul {
-    
-    
+.logo img {
+  width: 60px;
 }
-  .footer-col{
-    width: 100%;
+.logo h1 {
+  font-size: 1.2rem;
+  margin: 0;
 }
-  .logo img {
-    width: 60px;
-   }
-   .logo h1 {
-    font-size: 1.2rem;
-    margin: 0;
-   }
 
-  .nav-bar {
-    padding: 10px 10px 10px 10px;
+.nav-bar {
+  padding: 10px 10px 10px 10px;
 }
 .nav-item {
-    display: none;
+  display: none;
 }
 .login-button {
-    display: none;
+  display: none;
 }
 .mobile-menu-icon {
-    display: block;
-   
+  display: block;  
 }
 .mobile-menu-icon button {
     background-color: transparent;
@@ -566,7 +569,7 @@ height: 30px;
     padding: 0;
     padding-bottom: 30px;
     color: #fff;
-    background-color: #950303;
+    background-image: linear-gradient(to right, #df1717,#af1d1d, #a32525);
 }
 .mobile-menu .nav-item {
     display: block;
@@ -587,8 +590,6 @@ height: 30px;
 .open {
     display: block;
 }
-
-
   .depoimentos__cards {
     margin-top: 20px;
   }
@@ -626,5 +627,54 @@ height: 30px;
     font-size: 1.8rem;
    }
 
+.container-logo  {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container-logo img {
+ width: 60px;
+}
+.footer-col h4 {
+  width: 100%;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.footer-col ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.footer-col ul li {
+  font-size: 1rem;
+  gap: 10px;
+  width: 100%;
+  display: flex;
+  padding: 0;
+}
+
+.list-contato .icons {
+  width: 20px;
+  height: 20px;
+}
+
+.container-footer {
+  padding: 0 30px;
+}
+
+.faleconosco h4{
+font-size: 1.3rem;
+text-align: center;
+}
+.row-footer{
+  justify-content: center;
+  align-items: center;
+}
 }
