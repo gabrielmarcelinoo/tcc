@@ -5,7 +5,7 @@
 
 .parte-1{
     width: 100%;
-    height: 620px;
+   flex-wrap: wrap;
     display: flex;
     align-items:center;
     justify-content: center;
@@ -15,10 +15,7 @@
 
 
 .texto{
-background-color: rgb(213, 207, 218);
 width: 500px;
-height: 416px;
-
 
 }
 
@@ -39,16 +36,18 @@ height: 416px;
     font-family: Arial, sans-serif;
     font-size:20px;
     color:#000;
+    width: 100%;
+   
 }
 
 .parte-2{
-    background-color: rgb(216, 161, 161);
+
     flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 600px;
+   
  
 }
 
@@ -66,7 +65,7 @@ body{
     content: '';
     position: absolute;
     width: 100%;
-    background: #FF676D;
+
     clip-path: inset(47% 0 0 0);
     z-index: -1;
     height: 100%;
@@ -210,25 +209,20 @@ body{
 
 
 .maps {
-  background-color: burlywood;
+
   width: 100%;
-  height: 600px;
+ 
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 35px;
 }
 
 .texto-maps{
   width:  500px;
-  height: 450px;
 }
 
-.texto-maps{
-
-  width:  500px;
-  height: 450px;
-}
 
 .texto-maps p{
   font-family: Arial, sans-serif;
