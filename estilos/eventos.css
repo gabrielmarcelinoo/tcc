@@ -3,7 +3,7 @@
 .titulo-eventos  {
    text-align: center;
    width: 100%;
-   background-color: #fcabab;
+
 }
 
 .titulo-eventos h2{
@@ -16,7 +16,7 @@
 .container-conteudos{
   width: 70%;
   margin: 0 auto;
-  background-color: rgb(137, 220, 220);
+
 }
 
 .container-principal {
@@ -131,9 +131,41 @@ main{
 /*========================================*/
 /*========================================*/
 @media screen and (max-width: 480px) {
+main{
 
-
+padding: 60px 0px;
 }
+.titulo-bnt {
+  margin: 0;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.blocos-eventos {
+
+  flex-wrap: wrap;
+}
+.container-conteudos {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container-principal {
+
+  gap: 50px;
+}
+.blocos-eventos img {
+ 
+  width: 100%;
+ 
+}
+}
+
+
+
+
 
 
 
