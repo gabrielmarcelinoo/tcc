@@ -29,19 +29,14 @@ main{
     
 }   
 
-.bloco-1{
+;.blocos-principais{
     background-color: coral;
     width: 400px;
     height: 240px;
     border-radius: 23px;
 }
 
-.bloco-2{
-    background-color: rgb(100, 44, 23);
-    width: 400px;
-    height: 240px;
-    border-radius: 23px;
-}
+
 
 .container-2 img{
     width: 400px;
@@ -70,7 +65,7 @@ p{
 }
 
 
-.bloco-setembro img{
+.blocos-eventos img{
   background-color: yellow;
   width: 220px;
   height: 140px;
@@ -79,13 +74,13 @@ p{
 
 }
 
-.bloco-setembro p{
+.blocos-eventos p{
   color:#FF3131;
   font-size: 21px;
   margin-bottom: 0px;
 }
 
-.bloco-setembro{
+.blocos-eventos{
   display: flex;
 }
 
@@ -104,71 +99,6 @@ p{
   font-size: 12px;
 }
 
-.bloco-roda img{
-  background-color: yellow;
-  width: 220px;
-  height: 140px;
-  border-radius: 23px;
-  margin-left: 300px;
-
-}
-
-.bloco-roda p{
-  color:#FF3131;
-  font-size: 21px;
-  margin-bottom: 0px;
-  
-}
-
-.bloco-roda{
-  display: flex;
-
-}
-.parte-2{
-  display: flex;
-  flex-direction: column;
-}
-.bloco-maes img{
-  background-color: yellow;
-  width: 220px;
-  height: 140px;
-  border-radius: 23px;
-  margin-left: 300px;
-
-}
-
-
-.bloco-maes p{
-  color:#FF3131;
-  font-size: 21px;
-  margin-bottom: 0px;
-}
-
-.bloco-maes{
-  display: flex;
-
-}
-
-.bloco-palestras img{
-  background-color: yellow;
-  width: 220px;
-  height: 140px;
-  border-radius: 23px;
-  margin-left: 300px;
-
-}
-
-.bloco-palestras p{
-  color:#FF3131;
-  font-size: 21px;
-  margin-bottom: 0px;
-  width: 330px;
-}
-
-.bloco-palestras{
-  display: flex;
-
-}
 
 
 
