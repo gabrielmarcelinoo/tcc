@@ -16,7 +16,7 @@
 }
 
 body {
-	background-color: #eee;
+	background-color: var(--bgcolor);
 }
 
 html, body {
@@ -42,6 +42,7 @@ header {
     justify-content: space-around;
     flex-direction: row;
     align-content: center;
+    
   }
 
 .logo {
