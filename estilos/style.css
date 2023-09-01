@@ -136,7 +136,7 @@ main{
     padding: 33px;
     width: 400px;
     height: 100%;
-    box-shadow: 10px 10px  rgb(255, 0, 0);
+    box-shadow: 8px 8px  rgba(255, 0, 0, 0.772);
     display: flex;
     border-radius: 10% ;
     align-items: center;
@@ -147,6 +147,7 @@ main{
 .cards:hover{
     transform: scale(1.05);
     color: #FFFFFF;
+    box-shadow: 12px 12px  rgb(255, 0, 0);
 }
 
   .cards h3 {
@@ -176,6 +177,7 @@ main{
     grid-template-columns: repeat(2, 1fr); 
     grid-template-rows: repeat(2, 300px); 
     gap: 10px; 
+    margin: 20px 300px 80px 300px;
     margin-top: 20px;
     margin-left: 300px;
     margin-right: 300px;
@@ -192,7 +194,7 @@ main{
 footer{
   background-image: linear-gradient(to right, #df1717,#af1d1d, #a32525);
   padding: 50px 0;
-  margin-top: 70px;
+  
 
 }
 
@@ -374,9 +376,7 @@ footer{
 
 
 
-  @media screen and (min-width:769px) and (max-width: 1024px) {
-
-
+@media screen and (min-width:769px) and (max-width: 1024px) {
 
 .logo img {
   width: 80px;
@@ -395,21 +395,19 @@ footer{
   flex-direction: row;
   align-content: center;
 }
-    .cards {
-      width: 580px;
-      display: flex;
+  .cards {
+    width: 580px;
+    display: flex;
   } 
-    .depoimentos__cards{
-      gap: 50px;
-      margin-top: 20px;
-    }
-    .mural__imagens {
-     
-      margin: 20px 100px 0px 100px;
+  .depoimentos__cards{
+    gap: 50px;
+    margin-top: 20px;
+  }
+  .mural__imagens {
+    margin: 20px 100px 40px 100px;
   }
      
-
-  }
+}
 
 
 /*========================================*/
@@ -472,61 +470,64 @@ footer{
     padding-top: 1.2rem;
 }
 .mobile-menu .login-button {
-    display: block;
-    padding: 1rem 2rem;
+display: block;
+padding: 1rem 2rem;
 }
+
 .mobile-menu .login-button button {
-    width: 100%;
+width: 100%;
 }
+
 .open {
-    display: block;
+display: block;
 }
 
-  .cards {
-      width: 580px; 
-      display: flex;
-      font-size: 1rem;
-     }   
+.cards {
+width: 580px; 
+display: flex;
+font-size: 1rem;
+}   
 
-     .depoimentos__cards {
-      gap: 30px;
-      margin-top: 10px;
-     }
+.depoimentos__cards {
+gap: 30px;
+margin-top: 10px;
+}
 
-     .depoimentos__titulo {
-      font-size: 2rem;
-     }
+.depoimentos__titulo {
+font-size: 2rem;
+}
+
 .faleconosco{
-  margin-top: 0;
-  gap: 10px;
+margin-top: 0;
+gap: 10px;
 }
 .faleconosco h4{
-  margin: 0;
-  padding-bottom: 0;
-  padding-top: 7px;
+margin: 0;
+padding-bottom: 0;
+padding-top: 7px;
 }
-    .mural__imagens {
-      margin: 20px 40px 0px 40px;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(2, 150px);
-     }
-     .mural__titulo{
-      font-size: 1.8rem;
-     }
-     .footer-col ul li {
-      padding: 0;
-  }
-  .container-logo img {
-  width: 50px;
-  position: relative;
-  right: 10px;
+.mural__imagens {
+margin: 20px 40px 40px 40px;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 150px);
+}
+.mural__titulo{
+font-size: 1.8rem;
+}
+.footer-col ul li {
+padding: 0;
+}
+.container-logo img {
+width: 50px;
+position: relative;
+right: 10px;
 }
 
 .footer-col ul li {
-  
-  gap: 20px;
+gap: 20px;
 }
-    }
+
+}
 
 /*========================================*/
 /*========================================*/
@@ -622,7 +623,7 @@ footer{
    }
 
   .mural__imagens {
-    margin: 20px 40px 0px 40px;
+    margin: 20px 40px 40px 40px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 150px);
    }
