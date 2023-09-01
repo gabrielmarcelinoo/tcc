@@ -188,11 +188,9 @@ body{
   }
   
 .maps {
-
   width: 100%;
- 
   display: flex;
-  align-items: center;
+
   justify-content: center;
   flex-wrap: wrap;
   gap: 35px;
@@ -241,50 +239,7 @@ body{
 
 
 @media screen and (max-width: 1024px) {
-.parte-1 img {
-  width: 80%;
-  height: 200px;
-  margin: 30px;
-}
-.parte-1{
-  gap: 0;
-}
-.texto p {
-  font-family: Arial, sans-serif;
-  font-size: 1rem;
-  color: #000;
-  width: 100%;
-}
-.texto {
-  width: 100%;
-  margin: 30px;
-  display: flex;
-  align-content: center;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: justify;
-}
-.mapa {
-  border: 0;
-  margin: 30px;
-  width: 80%;
-  height: 250px;
-}
-.texto-maps {
-  width: 100%;
-  display: flex;
-  gap: 0;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
-  margin: 30px;
-  text-align: justify;
-}
-.container{
-  padding: 0;
-}
+
 }
 /*========================================*/
 /*========================================*/
@@ -295,7 +250,50 @@ body{
 /*========================================*/
 /*========================================*/
 @media screen and (max-width: 768px){
-
+  .parte-1 img {
+    width: 80%;
+    height: 200px;
+    margin: 30px;
+  }
+  .parte-1{
+    gap: 0;
+  }
+  .texto p {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    color: #000;
+    width: 100%;
+  }
+  .texto {
+    width: 100%;
+    margin: 30px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+  }
+  .mapa {
+    border: 0;
+    margin: 30px;
+    width: 80%;
+    height: 250px;
+  }
+  .texto-maps {
+    width: 100%;
+    display: flex;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 30px;
+    text-align: justify;
+  }
+  .container{
+    padding: 0;
+  }
 }
 /*========================================*/
 /*========================================*/
