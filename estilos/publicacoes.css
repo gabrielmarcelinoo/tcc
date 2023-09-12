@@ -1,3 +1,141 @@
-main{
-    height: 100vh;
+*{
+    margin: 0;
+    padding: 0;
+    }
+    .container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:50vh;
+    width:100vw;
+    flex-wrap:wrap;
+    gap:110px
+    }
+    .item{
+    height:270px;
+    width:200px;
+    background-color:red;
+    margin: 20px;
+    border-radius: 10px;
+    }
+    .img{
+    width:200px;
+    height:200px;
+    border-radius: 20px
+    }
+    .item1 .img{
+    background-image:url("/img/carnaval.jpg");
+    background-size: cover;
+    }
+    .item2 .img{
+    background-image:url("/img/carnaval.jpg");
+    background-size: cover;
+    }
+    .item3 .img{
+    background-image:url("/img/carnaval.jpg");
+    background-size: cover;
+    }
+    .item4 .img{
+    background-image: url("/img/carnaval.jpg");
+    background-size: cover;
+    }
+    .TITLE{
+    background-color:aqua;
+    height:70px;
+    width:200px;
+    text-align:center;
+    border-radius: 10px;
+    }
+   
+    .item:hover{
+    transform:scale(1.1);
+    transition-duration: 0.5s;
+    box-shadow: 7px 10px rgba(0,0,0,0.2);
+    }
+
+    .titulo-material{
+        color:#CF2727;
+        font-size: 50px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    
+    .barra{
+        width: 100%;
+        height: 300px;
+        background-color: #CF2727;  
+  
+    }
+
+.link1{
+    width: 240px;
+        height: 60px;
+        background-color:#F9F574;
+        border-radius: 20px ;
+        margin-left: 30px;
+        margin:50px;
+        margin-bottom: 20px;   
+        display: flex;
+        align-items: center;
+}
+
+
+.link1 a{
+    margin-left: 10px;
+    color:#000
+   
+}
+
+.link2{
+    width: 240px;
+        height: 60px;
+        background-color: #F9F574;
+        border-radius: 20px ;
+        margin-left: 30px;
+        margin:50px;
+        margin-bottom: 20px;   
+        display: flex;
+        align-items: center;
+}
+
+
+.link2 a{
+    margin-left: 10px;
+    color:black
+   
+}
+
+.barra h2{
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    padding:30px
+}
+
+.barra img{
+    width: 75px;
+    height: 75px;
+   
+    border-radius: 20px;
+}
+
+.barra h3{
+    font-size: 20px;
+
+}
+
+.barra h4{
+    font-size: 15px;
+}
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.barra a{
+    color:white;
 }

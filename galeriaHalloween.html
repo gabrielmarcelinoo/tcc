@@ -12,32 +12,38 @@
 </head>
 
 <body>
-  <header class="header-top">
-    
-  <div class="header-top__logo">
-      <img src="img/Logo Américo-depositphotos-bgremover (1).png" alt="Logo da Escola Américo Alves">
-      <h1>Américo Alves</h1> 
-    </div>
-  
-    <div class="header-top__gestion">
-      <div class="icongestao">
-        <img src="img/userwhite.png" alt="Logo da Escola Américo Alves">
+  <header>
+    <nav class="nav-bar">
+        <div class="logo">
+            <img class="logoamerico" src="img/Logo Américo-depositphotos-bgremover (1).png" alt="">
+           <h1>Américo Alves</h1>
         </div>
-      <a href="gestao.html">Gestão</a>    
+        <div class="nav-list">
+            <ul>
+              <li class="nav-item"><a href="/index.html" class="nav-link">Início</a></li>
+              <li class="nav-item"><a href="/avisos.html" class="nav-link">Avisos</a></li>
+              <li class="nav-item"><a href="/publicacoes.html" class="nav-link">Publicações</a></li>
+              <li class="nav-item"><a href="/eventos.html" class="nav-link">Eventos</a></li>
+              <li class="nav-item"><a href="/sobre.html" class="nav-link">Sobre</a></li>
+            </ul>
+        </div>
+       
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="img/menu-aberto.png"alt=""></button>
+        </div>
+    </nav>
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+            <li class="nav-item"><a href="avisos.html" class="nav-link">Avisos</a></li>
+            <li class="nav-item"><a href="publicacoes.html" class="nav-link">Publicações</a></li>
+            <li class="nav-item"><a href="eventos.html" class="nav-link">Eventos</a></li>
+            <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+        </ul>
+
     </div>
-  </header>
-
-  <nav class="header-bottom">
-    <ul>
-      <li><a href="index.html">Início</a></li>
-      <li><a href="avisos.html">Avisos</a></li>
-      <li><a href="publicacoes.html">Publicações</a></li>
-      <li><a href="eventos.html">Eventos</a></li>
-      <li><a href="sobre.html">Sobre</a></li>
-    </ul>
-  </nav>
-
-
+</header>
 
   <div class="titulo-galeria">
     <h2> <b> Galeria de Fotos </b></h2>
@@ -47,62 +53,71 @@
  
   <div class="container">
     <div class="row">
-        <div class="col-xl-4" >
+
+        <div class="col-xl-5" >
             <img class="img-fluid" src="img/festa junina modelo.webp"  alt="Card image cap">
         
         </div>
-        <div class="col-xl-4" >
+        <div class="col-xl-5" >
             <img class="img-fluid" src="img/festa junina modelo.webp"  alt="Card image cap">
-           
-
-        
-        </div>
-      
-          <div class="col-xl-4"  >
-              <img class="img-fluid" src="img/festa junina modelo.webp"  alt="Card image cap">
-          
-          </div>               
-</div>
-
-
-<div class="container">
-  <div class="row">
-      <div class="col-xl-4" >
-          <img class="img-fluid" src="img/festa junina modelo.webp"  alt="Card image cap">
-      
-      </div>
-      <div class="col-xl-4" >
-          <img class="img-fluid" src="img/festa junina modelo.webp"  alt="Card image cap">
-         
-
-      
-      </div>
-    
-        <div class="col-xl-4"  >
-            <img class="img-fluid" src="img/festa junina modelo.webp"  alt="Card image cap">
-        
-        </div>
-      
-           
+               
 </div>
 
 <div class="container">
   <div class="row">
-      <div class="col-xl-4" >
+      <div class="col-xl-5" >
           <img class="img-fluid" src="img/festa junina modelo.webp"  alt="Card image cap">
       
       </div>
-      <div class="col-xl-4" >
+      <div class="col-xl-5" >
           <img class="img-fluid" src="img/festa junina modelo.webp"  alt="Card image cap">
          
 
-      
       </div>
     
-        <div class="col-xl-4"  >
-            <img class="img-fluid" src="img/festa junina modelo.webp"  alt="Card image cap">
         
-        </div>      
+      
+           
 </div>
-
+<script src="script.js"> </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </main>
+<footer>
+  <div class="container-footer">
+      <div class="row-footer">    
+          <!-- footer col-->
+          <div class="footer-col">
+            <div class="container-logo">
+            <img src="img/Logo Américo-depositphotos-bgremover (1).png" alt="">
+              <h4>Américo Alves</h4>
+            </div>
+              <ul>
+                <li class="list-contato"><img class="icons" src="img/casa.png" alt="">
+                  <p>rua brasil,123</p>
+                </li>
+
+                <li class="list-contato"><img class="icons" src="img/telefone.png" alt="">
+                  <p>(12)3105-3987</p>
+                </li> 
+
+                <li class="list-contato"><img class="icons" src="img/logotipo-do-instagram.png" alt="">
+                  <p>@pei.americoalves</p>                 
+                </li> 
+
+              </ul>
+          </div>
+   
+          <div class="faleconosco" >
+              <h4>Fale Conosco!</h4>
+              <div class="form-faleconosco" >
+                  <form>
+                      <input type="email" placeholder="Digite o seu e-mail" required>
+                      <input type="text" placeholder="Digite o texto" required>
+                      <button>Enviar</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="linha"></div>
+</footer>
