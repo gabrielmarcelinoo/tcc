@@ -31,7 +31,7 @@ width: 500px;
 
 .texto p{
     font-family: Arial, sans-serif;
-    font-size:20px;
+    font-size:1.3rem ;
     color:#000;
     width: 100%;   
 }
@@ -51,12 +51,7 @@ width: 500px;
    margin-bottom: 30px;
 }
 
-body{
-    min-height: 100vh;
-    align-items: center;
-    background: #f2f2f2;
-    position: relative;
-  }
+
   body::before{
     content: '';
     position: absolute;
@@ -206,7 +201,7 @@ body{
 
 .texto-maps p{
   font-family: Arial, sans-serif;
-  font-size:1rem;
+  font-size:1.3rem;
   color:#000
 }
 
@@ -229,7 +224,7 @@ body{
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 2569px) {
 
 
 }
@@ -253,6 +248,11 @@ body{
 /*========================================*/
 /*========================================*/
 @media screen and (max-width: 768px){
+  .main-card .cards-sobre .card{
+    margin: 20px 0 10px 0;
+    width: calc(100% / 2 - 10px);
+  }
+  
   .texto p {
     font-family: Arial, sans-serif;
     font-size: 1.3rem;
