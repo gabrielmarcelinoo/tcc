@@ -16,6 +16,7 @@ body {
     gap: 300px;
     justify-content: center;
     align-items: center;
+    background-color: aqua;
   }
   
   .conteudo__item {
@@ -30,8 +31,8 @@ body {
   }
   
   .conteudo__imagem {
-    width: 400px;
-    height: 150px;
+    width: 220px;
+    height:200px;
     border-radius: 10px;
     
   }
