@@ -1,150 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
+/* Estilos gerais */
 body {
-    font-family: Arial, sans-serif;
-    overflow-x:hidden;
-    height: 100vh;
-    
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-/* Estilos para tela avisos */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Bloco Principal */
 .conteudo {
-    display: flex;
-    gap: 300px;
-    justify-content: center;
-    align-items: center;
-    background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.conteudo__item {
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.conteudo__imagem {
+  max-width: 100%;
+  height: auto;
+  max-height: 200px; /* Ajuste a altura máxima conforme necessário */
+}
+
+/* Bloco Secundário */
+.conteudos-menores {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha em telas pequenas */
+}
+
+.lado1,
+.lado2 {
+  flex: 1;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column; /* Empilha os itens verticalmente em vez de lado a lado em telas menores */
+}
+
+.conteudo__item-menor-1,
+.conteudo__item-menor-2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.conteudo__imagem-menor {
+  max-width: 100%;
+  height: auto;
+  max-height: 150px; /* Ajuste a altura máxima conforme necessário */
+}
+
+/* Estilos para telas menores (responsivo) */
+@media (max-width: 768px) {
+  .conteudo {
+      flex-direction: column;
   }
-  
+
   .conteudo__item {
-    
-    flex-direction: row;
-    align-items: center;
-    justify-content:center;
-    
-    width: 400px;
-    height: 300px;
-    margin-top: 80px;
-  }
-  
-  .conteudo__imagem {
-    width: 220px;
-    height:200px;
-    border-radius: 10px;
-    
+      margin: 10px 0;
   }
 
-  .content-text{
-    display: flex;   
-    flex-direction: column;
-    
-   }
-
-  .conteudo__titulo {
-    color: #ff0000;
-    
-    
-  }
-  .conteudo__descricao {
-   color: #000000;
-   
-   width: 400px;
-  }
-  
-  .conteudo__botao {
-    /* Cor de vermelho para o botão */
-    color: #FFFFFF;
-    background-color: #FF0000;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 10px;
-    width: 150px;
+  .conteudos-menores {
+      flex-direction: column;
   }
 
-
-/* ==============================================*/   
-/* Estilos para as imagens menores */
-/* ==============================================*/  
-
-.conteudos-menores{
-display: flex;
-flex-direction: row;
-
-height: 500px;
+  .lado1,
+  .lado2 {
+      margin: 10px 0;
+  }
 }
-
-
-.lado1{
-
-height: 100%;
-width: 50%;
-padding: 50px;
-align-items: center;
-justify-content: center;
-display: flex;
-flex-direction: column;
-}
-
-.lado2{
-
-height: 100%;
-width: 50%;
-padding: 50px;
-align-items: center;
-justify-content: center;
-display: flex;
-flex-direction: column;
-
-}
-
-.conteudo__item-menor-1 {
-    align-items: center;
-    justify-content: space-between; 
-    row-gap: 50px;
-    column-gap: 50px;
-
-    width: 400px;
-    height: 500px;
-    display: flex;
-    margin-left: 200px;
-  }
-
-  .conteudo__item-menor-2 {
-    align-items: center;
-    justify-content: space-between; 
-    row-gap: 50px;
-    column-gap: 50px;
-   
-    width: 400px;
-    height: 500px;
-    display: flex;
-    margin-right: 282px;
-  }
-
-  .conteudo__imagem--pequena {
-    width: 150px;
-    height: 150px;
-    border-radius: 20%;
-  }
-  .content-text-menor{
-  
-    width: 300px;
-   }
-  .conteudo__titulo-menor {
-    width: 300px;
-  }
-  
-  .conteudo__descricao-menor {
-    width: 400px;
-  }
-  
-  .conteudo__botao-menor {
-    background-color: #CC0000; /* Cor de vermelho para o botão */
-    color: #FFFFFF; /* Cor do texto do botão */
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-  }
