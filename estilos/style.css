@@ -206,7 +206,7 @@ footer{
 }
 .row-footer{
     display: flex;
-    flex-wrap: wrap;
+    
     justify-content: space-between; 
 
 }
@@ -257,7 +257,7 @@ footer{
 
 .footer-col ul li{
     margin: 10px 0;
-    width:300px;
+    width:100%;
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -366,7 +366,7 @@ footer{
     .mural__imagens {
       margin: 70px 100px;
   }
-  
+ 
   }
 /*========================================*/
 /*========================================*/ 
@@ -439,6 +439,9 @@ footer{
     justify-content: space-around;
     flex-direction: row;
     align-content: center;
+}
+.row-footer{
+  flex-wrap: wrap;
 }
 .nav-item {
     display: none;
@@ -547,7 +550,9 @@ gap: 20px;
   font-size: 1.2rem;
   margin: 0;
 }
-
+.row-footer{
+  flex-wrap: wrap;
+}
 .nav-bar {
   padding: 10px 10px 10px 10px;
 }
