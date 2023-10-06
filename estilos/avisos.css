@@ -5,10 +5,13 @@ body {
   padding: 0;
 }
 
-h1 {
-  text-align: center;
-  margin-top: 20px;
+
+
+.titulo-avisos h1{
   color: red;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 3rem;
 }
 
 /* Bloco Principal */
@@ -26,11 +29,11 @@ h1 {
 }
 
 .conteudo__imagem {
-  max-width: 100%;
-  height: auto;
-  max-height: 200px;
+  height: 200px;
+  width: 100%;
   border-radius: 10px;
 }
+
 .conteudo__titulo-menor{
   color: red;
 }
@@ -47,7 +50,7 @@ h1 {
 .conteudos-menores {
   display: flex;
   justify-content: center;
-  margin: 20px;
+  margin: 20px 20px 100px 20px;
   width: 100%;
   
   flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha em telas pequenas */
