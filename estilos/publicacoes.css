@@ -2,21 +2,32 @@
     margin: 0;
     padding: 0;
     }
-
-    .content-pub{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
+    .main-pub{
+        background-color: #f3f3f3;
     }
+    
+.titulo-material{
+    color: #ff0000;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 50px;
+}
+.content-pub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 60px 0px 60px 0px;
+}
+
     .card-pub {
         width: 350px;
         border-radius: 10px;
+        background-color: #fff;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         margin: 20px;
         overflow: hidden;
-        display: flex;
-       
+        display: flex; 
     }
 
     .card-pub img {
@@ -28,9 +39,11 @@
     
     .card-content {
         padding: 20px;
-        display: flex;     
-        justify-content: center;
+        display: flex;
+        justify-content: space-evenly;
         flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
     }
     
     .card-title {
@@ -57,74 +70,28 @@
         transition: background-color 0.3s ease;
     }
     
-
-    
-    .barra{
-        width: 100%;
-        height: 300px;
-        background-color: #CF2727;  
-  
-    }
-
-    .link1{
-        width: 240px;
-        height: 60px;
-        background-color:#F9F574;
-        border-radius: 20px ;
-        margin-left: 30px;
-        margin:50px;
-        margin-bottom: 20px;   
+    .barra {
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 20px;
+        padding: 50px;
+        background-image: linear-gradient(to right, #df1717,#af1d1d, #a32525);
         display: flex;
+        justify-content: center;
         align-items: center;
+        flex-wrap: wrap
     }
-
-
-    .link1 a{
-    margin-left: 10px;
-    color:#000 
-    }
-
-    .link2{
-        width: 240px;
-        height: 60px;
-        background-color: #F9F574;
-        border-radius: 20px ;
-        margin-left: 30px;
-        margin:50px;
-        margin-bottom: 20px;   
-        display: flex;
-        align-items: center;
-    }
-
-
-    .link2 a{
-        margin-left: 10px;
-        color:black
-    
-    }
-
-    .barra h2{
-        font-size: 1.5rem;
-        color: white;
-        text-align: center;
-        padding:30px
+    .barra h2 {
+        font-size: 1rem;
+        color: white;    
     }
 
     .barra img{
         width: 75px;
         height: 75px;
-    
         border-radius: 20px;
     }
 
-    .barra h3{
-        font-size: 20px;
-
-    }
-
-    .barra h4{
-        font-size: 15px;
-    }
     .app {
         display: flex;
         align-items: center;
@@ -136,3 +103,6 @@
     .barra a{
         color:white;
     }
+
+
+    
