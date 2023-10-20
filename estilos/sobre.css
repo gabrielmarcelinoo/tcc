@@ -13,7 +13,6 @@
     padding-top: 80px;
 }
 
-
 .texto{
 width: 500px;
 
@@ -56,17 +55,16 @@ width: 500px;
     content: '';
     position: absolute;
     width: 100%;
-
     clip-path: inset(47% 0 0 0);
     z-index: -1;
     height: 100%;
   }
   ::selection{
-    background:    #FF676D;
+    background:#FF676D;
     color: #fff;
   }
   .container{
-    max-width: 600px;
+   
     width: 100%;
     overflow: hidden;
    
