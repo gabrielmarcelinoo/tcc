@@ -1,13 +1,13 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
 }
 
-.titulo-galeria{
-    font-size: 2.5;
+.titulo-galeria {
+    font-size: 1000rem;
     color: red;
     text-align: center;
-    background-color:#EBEBEB;
+    background-color: #EBEBEB;
     padding-top: 50px;
 }
 
@@ -15,18 +15,28 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    margin: 50px 0px 50px 0px;
 }
 
 .column-galeria {
     margin: 10px;
-    max-width: 350px; /* Largura máxima das colunas */
+    max-width: 350px;
     text-align: center;
+    flex: 1; /* Adicione flex: 1 para que as colunas cresçam e ocupem o espaço disponível */
 }
 
 .column-galeria img {
-    margin: 10px;
-    max-width: 100%;
     height: 300px;
-    width: 100%; /* Garante que as imagens preencham as colunas */
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .container-galeria {
+        flex-direction: column; 
+    }
+
+    .column-galeria {
+        max-width: 100%;
+    }
 }
