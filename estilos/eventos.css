@@ -1,3 +1,7 @@
+a{
+  
+}
+
 .back{
   background-color: rgb(255, 255, 255);
   padding: 20px;
@@ -69,6 +73,10 @@
    height: 40px;
 }
 
+.btn-link:hover{
+  background-color: #e61919; /* Cor mais escura quando hover */
+  transition: background-color 0.3s ease;
+}
 
 .blocos-eventos img{
  background-color: yellow;
@@ -93,7 +101,9 @@
  flex-direction: column;
  gap: 22px;
  margin-left: 20px;
+
 }
+
 
 .titulo-bnt a{
  font-size: 12px;
