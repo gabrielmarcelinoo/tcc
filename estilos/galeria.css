@@ -22,7 +22,11 @@
     margin: 10px;
     max-width: 350px;
     text-align: center;
-    flex: 1; /* Adicione flex: 1 para que as colunas cresçam e ocupem o espaço disponível */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
 }
 
 .column-galeria img {

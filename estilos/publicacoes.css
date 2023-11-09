@@ -54,7 +54,12 @@
         font-size: 1.3rem;
         margin-bottom: 10px;
     }
-    
+
+    .card-data{
+        font-size: 0.8rem;
+       color: black; 
+    }
+
     .btn-pub {
         display: inline-block;
         padding: 10px 20px;
@@ -83,7 +88,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap
+        flex-wrap: wrap;
+        gap: 50px;
     }
     .barra p {
         font-size: 1rem;
