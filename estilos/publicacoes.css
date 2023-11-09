@@ -7,13 +7,14 @@
         background-color: #f3f3f3;
     }
     
-.titulo-material h2{
-    color: #ff0000;
+.titulo-material h1{
+    color: red;
     font-size: 2.5rem;
     text-align: center;
     padding-top: 50px;
 
 }
+
 .content-pub {
     display: flex;
     align-items: center;
@@ -84,7 +85,7 @@
         align-items: center;
         flex-wrap: wrap
     }
-    .barra h2 {
+    .barra p {
         font-size: 1rem;
         color: rgb(255, 255, 255);    
     }

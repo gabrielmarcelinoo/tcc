@@ -24,6 +24,7 @@ width: 500px;
 }
 
 .texto h1{
+    font-size: 2.5rem;
     text-align:left;
     color:#ff0000; 
 }
@@ -46,7 +47,8 @@ width: 500px;
 }
 
  .parte-2 h1{
-    color:#CF2727;
+   font-size: 2.5rem;
+   color: red;
    margin-bottom: 30px;
 }
 
