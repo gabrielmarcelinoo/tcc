@@ -1,4 +1,4 @@
-/* Estilos gerais */
+/* 
   body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,37 +12,51 @@
     font-size: 2.5rem;
   }
 
-  /* Bloco Principal */
+
+  
+
+
+
+
   .conteudo {  
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 100px;
+    
   }
 
   .conteudo__item {
     margin: 10px 50px;
     text-align: center;
+    
   }
 
   .conteudo__imagem {
     height: 300px;
-    width: 100%;
+    width: 500px;
     border-radius: 10px;
+    
   }
 
   .conteudo__titulo-menor{
     font-size: 1.5rem;
     color: red;
+   
   }
+  
   .conteudo__descricao-menor{
     font-size: 1rem;
+    
   }
 
   .conteudo__titulo{
     font-size: 1.8rem;
     color: red;
+    
   }
-
+.datahora{
+  font-size: 0.8rem;
+}
   .conteudo__botao-menor, .conteudo__botao{
     background-color: red;
     border-radius: 10px;
@@ -50,13 +64,16 @@
     color: white;
   }
 
-  /* Bloco Secundário */
+ 
+
+
+
   .conteudos-menores {
     display: flex;
     justify-content: center;
     margin: 20px 20px 100px 20px;
     width: 100%;
-    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha em telas pequenas */
+    flex-wrap: wrap; 
   }
 
   .lado1,
@@ -64,20 +81,21 @@
     margin: 0 50px;
     display: flex;
     flex-direction: column; 
-    gap: 50px; 
+   
   }
 
   .conteudo__item-menor-1,
   .conteudo__item-menor-2 {
     text-align: center;
     margin-bottom: 20px;
+    
 
   }
 
   .conteudo__imagem-menor {
     max-width: 100%;
     height: auto;
-    max-height: 150px; /* Ajuste a altura máxima conforme necessário */
+    max-height: 150px;
   }
 
   .bloco-principal{
@@ -86,6 +104,155 @@
     align-items:center;
     flex-wrap: wrap;
     margin-bottom: 50px;
+    
   }
 
+*/
+
+/* Estilos gerais */
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.titulo-avisos h1 {
+  color: red;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 2.5rem;
+}
+
+/* Bloco Principal */
+.bloco-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  margin-bottom: 50px;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.conteudo__item {
+  text-align: center;
+  margin: 10px;
+}
+
+.conteudo__imagem {
+  height: 300px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.conteudo__titulo,
+.conteudo__titulo-menor {
+  font-size: 1.8rem;
+  color: red;
+}
+
+.conteudo__descricao,
+.conteudo__descricao-menor {
+  font-size: 1rem;
+}
+
+.datahora {
+  font-size: 0.8rem;
+}
+
+.conteudo__botao,
+.conteudo__botao-menor {
+  background-color: red;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+
+/* Bloco Secundário */
+.conteudos-menores {
+  display: flex;
+  justify-content: center;
+  margin: 20px 20px 100px 20px;
+  width: 100%;
+  flex-wrap: wrap;
+
+}
+
+.lado1,
+.lado2 {
+  margin: 0 50px;
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.conteudo__item-menor {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.conteudo__imagem-menor {
+  max-width: 100%;
+  height: auto;
+  max-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-text-menor {
+  margin-top: 10px; 
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conteudo__titulo-menor {
+  font-size: 1.5rem;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conteudo__descricao-menor {
+  font-size: 1rem;
+}
+
+.conteudo__botao-menor {
+  background-color: red;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  margin-top: 10px; 
+}
+.conteudo__item-menor-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
+
+.conteudo__item-menor-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
 
